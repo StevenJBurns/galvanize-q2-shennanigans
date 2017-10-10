@@ -13,5 +13,17 @@
     "express": "~4.15.5",
     "morgan": "~1.9.0",
     "serve-favicon": "~2.4.5"
-  }
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevenJBurns/galvanize-q2-shennanigans.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StevenJBurns/galvanize-q2-shennanigans/issues"
+  },
+  "homepage": "https://github.com/StevenJBurns/galvanize-q2-shennanigans#readme",
+  "description": ""
 }
