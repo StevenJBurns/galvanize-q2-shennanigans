@@ -1,23 +1,23 @@
 var express = require('express');
 var router = express.Router();
 
-router.get('/', (req, res, next) => {
-  res.render('artists', { title: "Express" });
+router.get('/albums', (req, res, next) => {
+  res.render('albums', { albums: "All Albums" });
 });
 
-router.get('/:id', (req, res, next) => {
-  res.render('albums', { title: "Express" });
+router.get('/albums/:id', (req, res, next) => {
+  res.render('albums', { albums: "Album ID :" });
 });
 
-router.post('/'), (req, res, next) => {
+router.post('/albums'), (req, res, next) => {
 
 }
 
-router.patch('/'), (req, res, next) => {
+router.patch('/albums/:id'), (req, res, next) => {
 
 }
 
-router.delete('/'), (req, res, next) => {
+router.delete('/albums/:id'), (req, res, next) => {
 
 }
 
